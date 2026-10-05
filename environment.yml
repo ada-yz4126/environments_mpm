@@ -8,4 +8,5 @@ dependencies:
   - numpy>=2.1
   - matplotlib>=3.10
   - pip:
-      - -e . # install local repo
+      - -r requirements.txt
+      - -e .  # install local repo
